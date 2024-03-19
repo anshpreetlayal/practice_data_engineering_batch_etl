@@ -23,4 +23,24 @@ object SparkExamples {
       model = data.map(point => updateModel(model, point)).reduce(combineModels)
     }
 
-  }}
+     println(s"Final model after $numIterations iterations: $model")
+
+    // Caching Example: Cache the RDD in memory
+    rdd.cache()
+
+    // Persistence Example: Persist the RDD in memory and on disk
+    rdd.persist(StorageLevel.MEMORY_AND_DISK_SER)
+
+    // Action to trigger evaluation and reuse cached/persisted RDD
+    val count = rdd.count()
+    println(s"Count of RDD elements: $count")
+
+    // Stop the Spark Context
+    sc.stop()
+  }
+
+  // Example functions for iteration
+  def updateModel(model: Int, point: Int): Int = model + point
+  def combineModels(model1: Int, model2: Int): Int = model1 + model2
+}
+  
