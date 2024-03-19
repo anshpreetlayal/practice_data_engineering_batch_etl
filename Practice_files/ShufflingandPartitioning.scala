@@ -17,4 +17,24 @@ object ShufflingAndPartitioningExample {
     val groupedRDD = rdd.groupByKey() // Shuffling for grouping by key
     val joinedRDD = rdd.join(partitionedRDD) // Shuffling for join operation
 
-  }}
+    // Actions to trigger computations and display results
+    println("Original RDD:")
+    rdd.collect().foreach(println)
+
+    println("\nPartitioned RDD:")
+    partitionedRDD.glom().collect().foreach(arr => println(arr.mkString(", ")))
+
+    println("\nGrouped RDD:")
+    groupedRDD.collect().foreach { case (key, values) =>
+      println(s"$key -> ${values.mkString(", ")}")
+    }
+
+    println("\nJoined RDD:")
+    joinedRDD.collect().foreach { case (key, (value1, value2)) =>
+      println(s"$key -> ($value1, $value2)")
+    }
+
+    // Stop Spark context
+    sc.stop()
+  }
+}
