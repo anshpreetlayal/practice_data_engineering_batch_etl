@@ -18,4 +18,20 @@ object SparkOperationsExample {
       (acc1, acc2) => (acc1._1 + acc2._1, acc1._2 + acc2._2)
     )
 
+    // Print the results of fold and aggregate operations
+    println("Sum of numbers using fold: " + sumFold)
+    println("Sum and count of numbers using aggregate: " + sumCountAggregate)
+
+    // Create a Pair RDD from a list of key-value pairs
+    val pairRDD = sc.parallelize(List("key1" -> 1, "key2" -> 2, "key1" -> 3))
+
+    // Perform transformations and actions on Pair RDDs
+    val groupedRDD = pairRDD.groupByKey()
+    val sumByKeyRDD = pairRDD.reduceByKey(_ + _)
+    val sortedRDD = pairRDD.sortByKey()
+    val joinedRDD = pairRDD.join(sc.parallelize(List("key1" -> "value1", "key2" -> "value2")))
+    val avgByKeyRDD = pairRDD.aggregateByKey((0, 0))(
+      (acc, value) => (acc._1 + value, acc._2 + 1),
+      (acc1, acc2) => (acc1._1 + acc2._1, acc1._2 + acc2._2)
+    ).mapValues { case (sum, count) => sum.toDouble / count }
   }}
