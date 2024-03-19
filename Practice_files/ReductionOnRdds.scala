@@ -34,4 +34,18 @@ object SparkOperationsExample {
       (acc, value) => (acc._1 + value, acc._2 + 1),
       (acc1, acc2) => (acc1._1 + acc2._1, acc1._2 + acc2._2)
     ).mapValues { case (sum, count) => sum.toDouble / count }
+
+  // Print the results of transformations and actions on Pair RDDs
+    println("Grouped by key:")
+    groupedRDD.collect().foreach(println)
+    println("Sum by key:")
+    sumByKeyRDD.collect().foreach(println)
+    println("Sorted by key:")
+    sortedRDD.collect().foreach(println)
+    println("Joined with another RDD:")
+    joinedRDD.collect().foreach(println)
+    println("Average by key:")
+    avgByKeyRDD.collect().foreach(println)
+
+    // Stop Spark
   }}
