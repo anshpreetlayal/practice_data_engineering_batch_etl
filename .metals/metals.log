@@ -848,3 +848,51 @@ INFO: Unsupported notification method: $/setTrace
 2024.03.19 13:59:12 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/BasicSparkExample.scala
 2024.03.19 13:59:13 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/BasicSparkExample.scala
 2024.03.19 13:59:27 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\BasicSparkExample.scala
+2024.03.19 14:03:48 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/ReductionOnRdds.scala
+2024.03.19 14:03:53 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+Mar. 19, 2024 2:03:56 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+2024.03.19 14:03:57 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:03:59 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:04:51 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:04:54 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:04:55 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:04:59 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:09:46 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 14:10:25 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ReductionOnRdds.scala
+2024.03.19 18:01:26 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/TransformationonTwoRDDs.scala
+2024.03.19 18:01:40 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\TransformationonTwoRDDs.scala
+2024.03.19 18:01:40 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\TransformationonTwoRDDs.scala
+2024.03.19 18:31:52 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/ShufflingandPartitioning.scala
+2024.03.19 18:32:08 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:32:11 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:32:41 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:32:57 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:33:00 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:33:02 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:33:04 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:33:09 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\ShufflingandPartitioning.scala
+2024.03.19 18:38:55 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/EvaluationandCaching.scala
+2024.03.19 18:38:59 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:38:59 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:39:02 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:41:40 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:41:42 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:41:46 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+Mar. 19, 2024 6:41:49 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 414
+2024.03.19 18:41:50 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:41:53 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\EvaluationandCaching.scala
+2024.03.19 18:51:45 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/LineagesandFaultTolerance.scala
+2024.03.19 18:51:52 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\LineagesandFaultTolerance.scala
+2024.03.19 18:54:21 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/SparkSQL.scala
+2024.03.19 18:57:38 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 18:57:39 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 18:57:40 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/SparkSQL.scala
+2024.03.19 18:57:41 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 18:57:41 WARN  Could not find semantic tokens for: file:///C:/Users/anshp/IdeaProjects/practice_data_engineering_batch_etl/Practice_files/SparkSQL.scala
+2024.03.19 18:58:12 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 18:58:14 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 19:00:19 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 19:00:25 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
+2024.03.19 19:00:27 WARN  no build target for: C:\Users\anshp\IdeaProjects\practice_data_engineering_batch_etl\Practice_files\SparkSQL.scala
